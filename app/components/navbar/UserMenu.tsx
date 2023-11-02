@@ -65,8 +65,8 @@ const UserMenu:React.FC<userMenuProps> = ({currentUser})=>{
                             currentUser ?(
                                 <>
                                     <MenuItem onClick={()=>router.push('/trips')} label="My trips" />
-                                    <MenuItem onClick={()=>{}} label="My favorites" />
-                                    <MenuItem onClick={()=>{}} label="My Reservations" />
+                                    <MenuItem onClick={()=>router.push('/favorites')} label="My favorites" />
+                                    <MenuItem onClick={()=>router.push('/reservations')} label="My Reservations" />
                                     <MenuItem onClick={()=>{}} label="My properties" />
                                     <MenuItem onClick={onRent} label="Air bnb my home" />
                                     <MenuItem onClick={()=>signOut()} label="Log Out" />

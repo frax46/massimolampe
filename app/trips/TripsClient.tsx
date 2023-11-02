@@ -10,7 +10,7 @@ import { useCallback, useState } from 'react'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import ListingCard from '../components/listings/ListingCard'
-import { User } from '@prisma/client'
+import { User,Reservation } from '@prisma/client'
 
 interface TripsClientProps{
     reservations:safeReservations[],
