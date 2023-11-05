@@ -21,7 +21,7 @@ const ListingPage = async ()=>{
   return (
     <FavoritesClient
       listings={listings}
-      currentUser={currentUser}
+      currentUser={currentUser} //need to be fixed!!!!!!
     />
   )
 
